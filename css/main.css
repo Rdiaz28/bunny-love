@@ -1,0 +1,96 @@
+.container{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.menu-azul{
+	background-color: DodgerBlue;
+}
+div div div p{
+	font-family:'Baloo Paaji', cursive;
+	font-size: 35px;
+}
+nav{
+	-webkit-border-radius:10px;
+	background-image: linear-gradient(top, #FFF, #CCC);
+    overflow:hidden;
+    padding:20px;
+    width:950px;
+}
+nav ul{
+    list-style:none;
+    margin:0 10px 0 10px;
+    padding:0;
+}
+nav ul li{
+	-webkit-border-radius:5px;
+	float:left;
+	font-family:Arial;
+	margin-right:10px;
+	text-align:center;
+}
+nav ul li a {
+	display: block;
+	padding: 10px;
+	text-decoration-color: none;
+}
+nav ul li a:hover {
+    color:#000;
+}
+/*--------------------------------------------header conejo grande--*/
+/*header div div{
+	position: relative;
+	float: top;
+}
+.box-azul{
+	background-color: DodgerBlue;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+
+
+}
+h1{
+	font-family:'Baloo Paaji', cursive;
+	font-size: 70px;
+}*/
+
+image{
+	position: relative;
+	width: 100%;
+}	
+
+
+.cja-azul{
+	background:rgb(0,255,255);
+	background: rgb(0,0,0,0,0.7);
+	width: 80%;
+
+}
+h2{
+	position: absolute;
+	top:200px;
+	font-family:'Baloo Paaji', cursive;
+
+}
+h2 span {
+	font-family:'Baloo Paaji', cursive;
+	font-size: 40px;
+	
+	background:rgb(0,255,255);
+	background: rgb(0,0,0,0,0.7);
+	padding: 10px;
+
+}
+
+h1~p{
+	position: absolute;
+	top:500px;
+	
+	background:rgb(0,255,255);
+	background: rgb(0,0,0,0,0.7);
+	padding: 60px;
+}
+
+}
