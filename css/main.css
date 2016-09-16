@@ -1,21 +1,28 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+/*-----------------------------fondo menu nav principal*/
 .container{
 	width: 80%;
 	margin-right: auto;
 	margin-left: auto;
 }
 .menu-azul{
-	background-color: DodgerBlue;
+	background-color: #5F9EA0;
 }
+/*------------------------------------logo*/
 div div div p{
 	font-family:'Baloo Paaji', cursive;
-	font-size: 35px;
+	font-size: 40px;
 }
+
+/*-----menu de navegacion pincipal------*/
 nav{
-	-webkit-border-radius:10px;
-	background-image: linear-gradient(top, #FFF, #CCC);
-    overflow:hidden;
-    padding:20px;
+	padding:20px;
     width:950px;
+    overflow:hidden;
 }
 nav ul{
     list-style:none;
@@ -30,67 +37,45 @@ nav ul li{
 	text-align:center;
 }
 nav ul li a {
+	
+	padding: 10px 10px;
 	display: block;
-	padding: 10px;
-	text-decoration-color: none;
+	color:#fff;
+	text-decoration: none;
 }
 nav ul li a:hover {
     color:#000;
 }
 /*--------------------------------------------header conejo grande--*/
-/*header div div{
-	position: relative;
-	float: top;
-}
-.box-azul{
-	background-color: DodgerBlue;
-	width: 80%;
-	margin-right: auto;
-	margin-left: auto;
+
+.cja-conejo{
+    background-image: url(../img/img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 420px;
+    margin-bottom: 20px;
+    }   
+.cja-semi-transp{    
+	background-color: rgba(68, 120, 157, 0.75);
+	width: 75%;
+	height: 300px;
 	text-align: center;
-
-
+	position:relative;
+	top:60px;
+	margin-left: auto;
+	margin-right: auto;
 }
-h1{
+.cja-semi-transp h2{
 	font-family:'Baloo Paaji', cursive;
-	font-size: 70px;
-}*/
-
-image{
-	position: relative;
-	width: 100%;
-}	
-
-
-.cja-azul{
-	background:rgb(0,255,255);
-	background: rgb(0,0,0,0,0.7);
-	width: 80%;
-
+	font-size: 80px;
+	color:LightCoral;
 }
-h2{
-	position: absolute;
-	top:200px;
-	font-family:'Baloo Paaji', cursive;
-
-}
-h2 span {
-	font-family:'Baloo Paaji', cursive;
-	font-size: 40px;
-	
-	background:rgb(0,255,255);
-	background: rgb(0,0,0,0,0.7);
-	padding: 10px;
-
+ ul li{
+ 	font-family: arial;
+	list-style:none;
+	text-align: center;
+	display: inline-block;
 }
 
-h1~p{
-	position: absolute;
-	top:500px;
-	
-	background:rgb(0,255,255);
-	background: rgb(0,0,0,0,0.7);
-	padding: 60px;
-}
 
-}
+
