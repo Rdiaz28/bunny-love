@@ -115,6 +115,7 @@ div .col-3 p{
 	font-size: 13px;
 	color:#FFFFFF;
 	font-family: 'Prompt', sans-serif;
+	padding: 10px 10px 10px 10px;
 }
 
 /*--------------descripcion, principal, video................*/
@@ -237,3 +238,4 @@ div .footer p{
 .fondo2{
 	background-color: #5F9EA0;
 }
+
