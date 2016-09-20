@@ -29,8 +29,7 @@ div div div p{
 
 /*-----menu de navegacion pincipal------*/
 nav{
-	padding:20px;
-	width:950px;
+	padding:14px;
 	overflow:hidden;
 }
 nav ul{
@@ -42,7 +41,7 @@ nav ul li{
 	-webkit-border-radius:5px;
 	float:left;
 	font-family:Arial;
-	font-size: 18px;
+	font-size: 14px;
 	margin-right:7px;
 	text-align:center;
 }
