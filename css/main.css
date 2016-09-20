@@ -7,8 +7,10 @@
 }
 /*-----------------------------fondo menu nav principal*/
 .container{
-	width: 80%;
+	width: 960px;
+	margin-top: 0;
 	margin-right: auto;
+	margin-bottom: 0;
 	margin-left: auto;
 }
 .container2{
@@ -88,27 +90,30 @@ ul li{
 	display: inline-block;
 }
 /*---------------seccion 4 conejos-----*/
+
 .fondo{
 	background-color:#FFFFFF;
 }
 div .conej4{
-	margin:10.5px 10.5px;
+	margin:9px;
 	background-color: #5F9EA0;
 	width: 23%;
-	height: 450px;
+	height: 400px;
+	overflow: hidden;
 }
 div .col-3{
 	text-align:center;
 }
 div .col-3 h3{
 	font-family:'Baloo Paaji', cursive;
-	font-size: 24px;
+	font-size: 20px;
 	color:LightCoral;
+	padding-top: 20px;
 	padding-bottom: 20px;
 
 }
 div .col-3 p{
-	font-size: 16px;
+	font-size: 13px;
 	color:#FFFFFF;
 	font-family: 'Prompt', sans-serif;
 }
